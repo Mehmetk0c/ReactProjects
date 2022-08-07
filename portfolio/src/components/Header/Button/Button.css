@@ -1,0 +1,55 @@
+.button-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 80%;
+    padding: 0;
+}
+.button-container .btn{
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:var(--color-pri);
+    transition: 0.2s ease;
+    overflow: hidden;
+}
+
+.button-container a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    display: flex;
+    font-size: 18px;
+}
+
+.button-container .btn.pri{
+    border: 2px solid var(--color-pri);
+}
+
+.button-container .btn.pri:hover{
+    border: 2px solid var(--color-pri-light);
+    background-color: transparent;
+}
+
+
+
+.button-container .btn.sec{
+    background:transparent;
+    border: 2px solid var(--color-pri);
+}
+
+.button-container .btn.sec:hover{
+    border: 2px solid var(--color-pri-light);
+    background-color: transparent;
+}
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.talents-container{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-top: 15px;
+    user-select: none;
+}
+.talent-text{
+    font-size: 20px;
+    top: 10px;
+}
+
+.talents-container .talent{
+    position: relative;
+    height: 550px;
+    min-width: 40%;
+    background: rgb(9,6,30);
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+}
+
+.talents-container .talent .content{
+    height: 85%;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-size:contain;
+    background-position: center;
+}
+
+.talents-container .talent h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.talents-container .talent .content.html{
+    background: url(../Header/Home/html.webp);
+    background-position: center;
+    background-size: 100px;
+}
+.talents-container .talent .content.css{
+    background: url(../Header/Home/css.webp);
+    background-position: center;
+    background-size: 100px;
+}
+.talent-text{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+   
+}
+.talents-container .talent .content.js{
+    background: url(../Header/Home/js.webp);
+    background-position: center;
+    background-size: 95px;
+}
+.talents-container .talent .content.react{
+    background: url(../Header/Home/react.webp);
+    background-position: center;
+    background-size:95px;
+}
+.talents-container .talent .content.asp{
+    background: url(../Header/Home/asp.webp);
+    background-position: center;
+    background-size: 120px;
+}
